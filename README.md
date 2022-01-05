@@ -8,9 +8,11 @@
     <a href="https://github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis" target="_blank">
       <strong><< Project's GitHub >></strong>
     </a>
+    <a href="https://github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis/blob/main/2021_websteru_enroll_analysis_mandy-hp-nguyen.pdf">
+      <strong><< Analysis Paper >></strong>
+    </a>
   </p>
 </div>
-
 
 ## Descriptive Analysis
 

@@ -37,11 +37,11 @@ source("https://raw.githubusercontent.com/mandyhpnguyen/Mandy-Functions/main/M.R
 pkgs <- c(
   "beepr",
   # General pkgs:
-  "tidyverse", "dplyr", "summarytools", "reshape2", "pastecs", "ROSE",
+  "tidyverse", "dplyr", "summarytools", "reshape2", "pastecs",
   # Analytics pkgs:
-  "forecast", "zoo", "scorecard",
+  "forecast", "zoo", "scorecard", "ts",
   # Evaluation pkgs:
-  "caret", "DT", "lift", "gains", "gt", "cvms","tibble", "fourfoldplot",
+  "caret", "DT", "lift", "gains", "gt", "cvms", "tibble", "fourfoldplot",
   # Visualization pkgs:
   "RColorBrewer", "hrbrthemes", "knitr", "showtext", "sysfonts",
   "ggfortify", "ggplot2", "corrplot", "GGally", "viridis",
@@ -54,11 +54,12 @@ suppressMessages(suppressWarnings(loadpkg(pkgs)))
 
 ```{r}
 # Load the main font I used in my paper to plot charts for standardization
-windowsFonts(cambria = windowsFont("Cambria"))
+windowsFonts(cambria = windowsFont("Cambria"),
+             franklin = windowsFont("Franklin Gothic Book"))
 my.par <- function() {
   options(scipen = 999)
   par(mfrow = c(1, 1),
-      family = "cambria", 
+      family = "franklin", 
       cex.main = 1.25, cex.lab = 1.25, cex.axis = 1.25)
 }
 ```
@@ -66,11 +67,61 @@ my.par <- function() {
 ## Color Scheme
 
 ```{r}
-pal <- c("cornflowerblue", "orange", "red2", "forestgreen", "mediumorchid1", "tomato3", "cadetblue1")
+pal <- c("#3A4E84", "#FFAF50", "#4698CA", "#E66622", "#EEEEEE")
+# Source: https://webster.edu/website-training-resources/editorial-style-color-palette.php
 ```
 
 # Collect Data
 
+```{r}
+allus20 <- read.csv("https://raw.githubusercontent.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis/main/Data/Final_All_School_US_2020/2020_US_Institutions_data.csv")
+wu_race <- read.csv("https://raw.githubusercontent.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis/c24ea4275e71587c9ecbb0a07a9843ae561bbcf4/Data/Final_WU_Race_2016-2020/WU_20_Race_data.csv")
+wu_gender <- read.csv("https://raw.githubusercontent.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis/main/Data/Final_WU_Gender_2016-2020/WU_20_Gender_data.csv")
+```
+
+# WebsterU Race
+
+```{r}
+round(stat.desc(wu_race), 0)
+summary(wu_race)
+str(wu_race)
+```
+
+```{r}
+race.df <- wu_race
+race.df <- race.df[, -1]
+race.df$Year <- factor(race.df$Year)
+```
+
+```{r}
+year_totals <- race.df %>%
+    group_by(Race, Year) %>%
+    summarise(Student = sum(Student))
+race.df.new <- add_row(.data = race.df, year_totals) %>%
+    arrange(Race, Year)
+race.df.new$Gender[is.na(race.df.new$Gender)] <- "Total"
+# source: https://stackoverflow.com/questions/66136737/add-total-row-for-each-group-in-a-column-in-df
+```
+
+
+```{r}
+race.df20 <- race.df.new[race.df.new["Gender"] == "Total" & race.df.new["Year"] == "2020", c(1,4)] %>% arrange(Student)
+```
+
+```{r}
+my.par() %>% par(mfrow = c(1, 1),
+                 mai = par("mai") * 1,
+                 oma = c(0,0,0,0) + 0.1,
+                 mar = c(3,20,0,1) + 0.1)
+barplot(height = race.df20$Student, horiz = TRUE, col = pal[1],
+        names.arg = race.df20$Race, las = 1)
+```
+
+```{r}
+ggplot(race.df, aes(fill = Year, y = Student, x = Race)) + 
+  geom_bar(position = "dodge", stat = "identity") +
+  coord_flip()
+```
 
 
 

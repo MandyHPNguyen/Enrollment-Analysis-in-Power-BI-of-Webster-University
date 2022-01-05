@@ -1,91 +1,46 @@
-Seq#,Race,Gender,Year,Student
-1,American Indian or Alaska Native,Men,2020,8
-2,American Indian or Alaska Native,Women,2020,14
-3,Asian,Men,2020,150
-4,Asian,Women,2020,138
-5,Black or African American,Men,2020,751
-6,Black or African American,Women,2020,1492
-7,Hispanic,Men,2020,299
-8,Hispanic,Women,2020,330
-9,Native Hawaiian or Other Pacific Islander,Men,2020,6
-10,Native Hawaiian or Other Pacific Islander,Women,2020,10
-11,White,Men,2020,1777
-12,White,Women,2020,2352
-13,Two or more races,Men,2020,109
-14,Two or more races,Women,2020,141
-15,Race/ethnicity unknown,Men,2020,220
-16,Race/ethnicity unknown,Women,2020,219
-17,Nonresident alien,Men,2020,98
-18,Nonresident alien,Women,2020,83
-19,American Indian or Alaska Native,Men,2019,11
-20,American Indian or Alaska Native,Women,2019,16
-21,Asian,Men,2019,142
-22,Asian,Women,2019,132
-23,Black or African American,Men,2019,1028
-24,Black or African American,Women,2019,1941
-25,Hispanic,Men,2019,349
-26,Hispanic,Women,2019,408
-27,Native Hawaiian or Other Pacific Islander,Men,2019,8
-28,Native Hawaiian or Other Pacific Islander,Women,2019,12
-29,White,Men,2019,2095
-30,White,Women,2019,2625
-31,Two or more races,Men,2019,122
-32,Two or more races,Women,2019,168
-33,Race/ethnicity unknown,Men,2019,241
-34,Race/ethnicity unknown,Women,2019,282
-35,Nonresident alien,Men,2019,156
-36,Nonresident alien,Women,2019,124
-37,American Indian or Alaska Native,Men,2018,15
-38,American Indian or Alaska Native,Women,2018,16
-39,Asian,Men,2018,168
-40,Asian,Women,2018,139
-41,Black or African American,Men,2018,1285
-42,Black or African American,Women,2018,2437
-43,Hispanic,Men,2018,407
-44,Hispanic,Women,2018,465
-45,Native Hawaiian or Other Pacific Islander,Men,2018,17
-46,Native Hawaiian or Other Pacific Islander,Women,2018,13
-47,White,Men,2018,2455
-48,White,Women,2018,2787
-49,Two or more races,Men,2018,121
-50,Two or more races,Women,2018,184
-51,Race/ethnicity unknown,Men,2018,251
-52,Race/ethnicity unknown,Women,2018,307
-53,Nonresident alien,Men,2018,204
-54,Nonresident alien,Women,2018,135
-55,American Indian or Alaska Native,Men,2017,18
-56,American Indian or Alaska Native,Women,2017,16
-57,Asian,Men,2017,168
-58,Asian,Women,2017,154
-59,Black or African American,Men,2017,1502
-60,Black or African American,Women,2017,2860
-61,Hispanic,Men,2017,461
-62,Hispanic,Women,2017,506
-63,Native Hawaiian or Other Pacific Islander,Men,2017,16
-64,Native Hawaiian or Other Pacific Islander,Women,2017,13
-65,White,Men,2017,2798
-66,White,Women,2017,2904
-67,Two or more races,Men,2017,142
-68,Two or more races,Women,2017,188
-69,Race/ethnicity unknown,Men,2017,304
-70,Race/ethnicity unknown,Women,2017,352
-71,Nonresident alien,Men,2017,194
-72,Nonresident alien,Women,2017,140
-73,American Indian or Alaska Native,Men,2016,30
-74,American Indian or Alaska Native,Women,2016,20
-75,Asian,Men,2016,239
-76,Asian,Women,2016,187
-77,Black or African American,Men,2016,1664
-78,Black or African American,Women,2016,3315
-79,Hispanic,Men,2016,478
-80,Hispanic,Women,2016,599
-81,Native Hawaiian or Other Pacific Islander,Men,2016,18
-82,Native Hawaiian or Other Pacific Islander,Women,2016,17
-83,White,Men,2016,3079
-84,White,Women,2016,3004
-85,Two or more races,Men,2016,146
-86,Two or more races,Women,2016,181
-87,Race/ethnicity unknown,Men,2016,437
-88,Race/ethnicity unknown,Women,2016,454
-89,Nonresident alien,Men,2016,19
-90,Nonresident alien,Women,2016,19
+Seq#,Race,Gender,Year,Men,Women,Total
+1,American Indian or Alaska Native,Men,2020,8,14,22
+2,Asian,Men,2020,150,138,288
+3,Black or African American,Men,2020,751,1492,2243
+4,Hispanic,Men,2020,299,330,629
+5,Native Hawaiian or Other Pacific Islander,Men,2020,6,10,16
+6,White,Men,2020,1777,2352,4129
+7,Two or more races,Men,2020,109,141,250
+8,Race/ethnicity unknown,Men,2020,220,219,439
+9,Nonresident alien,Men,2020,98,83,181
+10,American Indian or Alaska Native,Men,2019,11,16,27
+11,Asian,Men,2019,142,132,274
+12,Black or African American,Men,2019,1028,1941,2969
+13,Hispanic,Men,2019,349,408,757
+14,Native Hawaiian or Other Pacific Islander,Men,2019,8,12,20
+15,White,Men,2019,2095,2625,4720
+16,Two or more races,Men,2019,122,168,290
+17,Race/ethnicity unknown,Men,2019,241,282,523
+18,Nonresident alien,Men,2019,156,124,280
+19,American Indian or Alaska Native,Men,2018,15,16,31
+20,Asian,Men,2018,168,139,307
+21,Black or African American,Men,2018,1285,2437,3722
+22,Hispanic,Men,2018,407,465,872
+23,Native Hawaiian or Other Pacific Islander,Men,2018,17,13,30
+24,White,Men,2018,2455,2787,5242
+25,Two or more races,Men,2018,121,184,305
+26,Race/ethnicity unknown,Men,2018,251,307,558
+27,Nonresident alien,Men,2018,204,135,339
+28,American Indian or Alaska Native,Men,2017,18,16,34
+29,Asian,Men,2017,168,154,322
+30,Black or African American,Men,2017,1502,2860,4362
+31,Hispanic,Men,2017,461,506,967
+32,Native Hawaiian or Other Pacific Islander,Men,2017,16,13,29
+33,White,Men,2017,2798,2904,5702
+34,Two or more races,Men,2017,142,188,330
+35,Race/ethnicity unknown,Men,2017,304,352,656
+36,Nonresident alien,Men,2017,194,140,334
+37,American Indian or Alaska Native,Men,2016,30,20,50
+38,Asian,Men,2016,239,187,426
+39,Black or African American,Men,2016,1664,3315,4979
+40,Hispanic,Men,2016,478,599,1077
+41,Native Hawaiian or Other Pacific Islander,Men,2016,18,17,35
+42,White,Men,2016,3079,3004,6083
+43,Two or more races,Men,2016,146,181,327
+44,Race/ethnicity unknown,Men,2016,437,454,891
+45,Nonresident alien,Men,2016,19,19,38

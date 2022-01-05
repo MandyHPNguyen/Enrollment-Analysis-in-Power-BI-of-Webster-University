@@ -1,7 +1,7 @@
 <!-- HEADER -->
 
 <div align="center">
-  <h1>Webster University's Fall 2020 Enrollment Data Analysis</h1>
+  <h1>Webster University's 2016-2020 Fall Enrollment Descriptive Analysis</h1>
   <p><strong>developed by Mandy HP Nguyen</strong></p>
   <p>I just want to learn how my school was doing last year, 2020</p>
   <p>
@@ -25,7 +25,7 @@
 ![](Images/17_wu_enroll_gender_race.png)
 ![](Images/16_wu_enroll_gender_race.png)
 
-## References:
+## References
 
 - National Center for Education Statistics - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Integrated Postsecondary Education Data System - [link](https://nces.ed.gov/ipeds/use-the-data)

@@ -12,7 +12,18 @@
 </div>
 
 
-# References:
+## Descriptive Analysis
+
+![](Images/16-20_wu_enroll_race.png)
+![](Images/16-20_wu_enroll_gender.png)
+![](Images/20_wu_enroll_race_pie.png)
+![](Images/20_wu_enroll_gender_race.png)
+![](Images/19_wu_enroll_gender_race.png)
+![](Images/18_wu_enroll_gender_race.png)
+![](Images/17_wu_enroll_gender_race.png)
+![](Images/16_wu_enroll_gender_race.png)
+
+## References:
 
 - Integrated Postsecondary Education Data System - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Webster University's Our Editorial Style — Color Palette & Typography - [link](https://webster.edu/website-training-resources/editorial-style-color-palette.php)

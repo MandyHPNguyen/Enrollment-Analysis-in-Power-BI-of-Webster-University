@@ -1,0 +1,82 @@
+---
+title: "Webster University 2020 Fall Enrollment Analysis"
+author: "Mandy HP Nguyen"
+date: "01/04/2022"
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
+  html_document:
+    theme: paper
+    highlight: breezedark
+    code_folding: hide
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    number_sections: yes
+  word_document:
+    toc: yes
+    toc_depth: '4'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Environment Setting
+
+## Load Mandy's Functions
+
+```{r}
+source("https://raw.githubusercontent.com/mandyhpnguyen/Mandy-Functions/main/M.R-Funcs/general.R")
+```
+
+## Load Packages
+
+```{r}
+pkgs <- c(
+  "beepr",
+  # General pkgs:
+  "tidyverse", "dplyr", "summarytools", "reshape2", "pastecs", "ROSE",
+  # Analytics pkgs:
+  "forecast", "zoo", "scorecard",
+  # Evaluation pkgs:
+  "caret", "DT", "lift", "gains", "gt", "cvms","tibble", "fourfoldplot",
+  # Visualization pkgs:
+  "RColorBrewer", "hrbrthemes", "knitr", "showtext", "sysfonts",
+  "ggfortify", "ggplot2", "corrplot", "GGally", "viridis",
+  "lattice", "grid", "cowplot", "Amelia"
+)
+suppressMessages(suppressWarnings(loadpkg(pkgs)))
+```
+
+## Set fonts
+
+```{r}
+# Load the main font I used in my paper to plot charts for standardization
+windowsFonts(cambria = windowsFont("Cambria"))
+my.par <- function() {
+  options(scipen = 999)
+  par(mfrow = c(1, 1),
+      family = "cambria", 
+      cex.main = 1.25, cex.lab = 1.25, cex.axis = 1.25)
+}
+```
+
+## Color Scheme
+
+```{r}
+pal <- c("cornflowerblue", "orange", "red2", "forestgreen", "mediumorchid1", "tomato3", "cadetblue1")
+```
+
+# Collect Data
+
+
+
+
+# Clean up
+
+```{r}
+rm(list = ls())
+cat("\014")
+```

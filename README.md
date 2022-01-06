@@ -30,3 +30,9 @@
 - National Center for Education Statistics - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Integrated Postsecondary Education Data System - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Webster University's Our Editorial Style — Color Palette & Typography - [link](https://webster.edu/website-training-resources/editorial-style-color-palette.php)
+
+## Contacts
+
+- Mandy HP Nguyen - [mandyhpnguyen@gmail.com](mandyhpnguyen@gmail.com)
+- Linkedin: [linkedin.com/in/mandyhpnguyen](https://www.linkedin.com/in/mandyhpnguyen)
+- Project Link: [github.com/mandyhpnguyen/MS-Data-Analytics-Practicum-Projects](https://github.com/mandyhpnguyen/MS-Data-Analytics-Practicum-Projects)

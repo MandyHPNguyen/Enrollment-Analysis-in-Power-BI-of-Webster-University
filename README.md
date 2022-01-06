@@ -35,4 +35,4 @@
 
 - Mandy HP Nguyen - [mandyhpnguyen@gmail.com](mandyhpnguyen@gmail.com)
 - Linkedin: [linkedin.com/in/mandyhpnguyen](https://www.linkedin.com/in/mandyhpnguyen)
-- Project Link: [github.com/mandyhpnguyen/MS-Data-Analytics-Practicum-Projects](https://github.com/mandyhpnguyen/MS-Data-Analytics-Practicum-Projects)
+- Project Link: [github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis](https://github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis)

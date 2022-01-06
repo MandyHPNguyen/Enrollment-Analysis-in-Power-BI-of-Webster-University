@@ -1,7 +1,7 @@
 <!-- HEADER -->
 
 <div align="center">
-  <h1>Webster University's Fall 2020 Enrollment Data Analysis</h1>
+  <h1>Webster University's 2016-2020 Fall Enrollment Descriptive Analysis</h1>
   <p><strong>developed by Mandy HP Nguyen</strong></p>
   <p>I just want to learn how my school was doing last year, 2020</p>
   <p>
@@ -25,8 +25,14 @@
 ![](Images/17_wu_enroll_gender_race.png)
 ![](Images/16_wu_enroll_gender_race.png)
 
-## References:
+## References
 
 - National Center for Education Statistics - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Integrated Postsecondary Education Data System - [link](https://nces.ed.gov/ipeds/use-the-data)
 - Webster University's Our Editorial Style — Color Palette & Typography - [link](https://webster.edu/website-training-resources/editorial-style-color-palette.php)
+
+## Contacts
+
+- Mandy HP Nguyen - [mandyhpnguyen@gmail.com](mandyhpnguyen@gmail.com)
+- Linkedin: [linkedin.com/in/mandyhpnguyen](https://www.linkedin.com/in/mandyhpnguyen)
+- Project Link: [github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis](https://github.com/mandyhpnguyen/Webster-University_Fall-2020_Enrollment_Analysis)
